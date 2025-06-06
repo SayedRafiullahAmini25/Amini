@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+:root{
+    --width : 92%;
+    --height: 22em;
+}
+body{
+    background-color: rgb(199, 206, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 576px){
+    .minue-bx{
+        width: 100%;
+        height: 22em;
+        background-image: url(images/arif-riyanto-vJP-wZ6hGBg-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #222121db;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid rgb(156, 156, 156);
+        padding: 8px 0;
+        margin-top: 1em;
+
+    }
+    .links a{
+        color: rgba(250, 214, 7, 0.753);
+        margin: 0 12px;
+        text-decoration: none;
+        padding: 5px 3px;
+        font-size: large;
+        font-weight: bold;
+        
+    }
+    .intro{
+        font-size: large;
+        color: #83c7ffb7;
+        margin-top: 9em;
+        border: 1px solid gray;
+        border-radius: 8px;
+        padding: 7px 25px;
+    }
+    .intro-bx{
+        width: 92%;
+        height: 22em;
+        background-color: #9dc9ee;
+        border-radius: 10px;
+        box-shadow: 0 0 14px gray;
+        margin-top: 4em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .intro-bx p{
+        text-align: justify;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        color: rgb(61, 61, 61);
+    }
+    .intro-bx h1{
+        font-weight: bolder;
+        color: rgb(71, 10, 10);
+    }
+    .img-bx{
+        width: 133px;
+        height: 133px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 2em;
+    }
+    #my-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .skills{
+        width: var(--width);
+        height: 25em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4em;
+        border-radius: 10px;
+        box-shadow: 0 0 15px gray;
+        overflow: hidden;
+        background-color: bisque;
+    }
+    .skills-img-bx{
+        width: 100%;
+        height: 50%;
+    }
+    .skills-img-bx img{
+        width: 100%;
+        height: 100%;
+    }
+    .javaScript{
+        width: 80%;
+        height: 2em;
+        border-radius: 8px;
+        background-color: rgb(212, 212, 0);
+        margin-left: 1em;
+    }
+    .html{
+         width: 80%;
+        height: 2em;
+        border-radius: 8px;
+        background-color: rgb(212, 212, 0);
+        margin-left: 1em;
+    }
+    .content{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .javaScript .line{
+        width: 80%;
+        background-color: green;
+        height: 100%;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-weight: bolder;
+    }
+    .html .line{
+         width: 90%;
+        background-color: green;
+        height: 100%;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-weight: bolder;
+    }
+
+    .content h1{
+        color: rgb(129, 30, 30);
+        font-weight: bolder;
+
+    }
+    
+
+}
